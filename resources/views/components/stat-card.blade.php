@@ -1,3 +1,6 @@
-<div>
-    <!-- You must be the change you wish to see in the world. - Mahatma Gandhi -->
+@props(['title', 'value'])
+
+<div class="bg-white rounded shadow p-4 text-center">
+    <p class="text-sm text-gray-500">{{ $title }}</p>
+    <p class="text-3xl font-bold text-emerald-700">{{ $value }}</p>
 </div>
